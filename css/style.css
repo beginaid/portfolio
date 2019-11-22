@@ -718,8 +718,3 @@ ul li {
   height: 300px;
   border: 2px solid black;
 }
-
-.swiper-container img {
-	max-width: 100%;
-	height: auto;
-}
