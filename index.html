@@ -36,7 +36,7 @@
       <div class="inner">
         <h1 class="logo">
           <div class="logo-title">
-            <p>testRYOTO ISHIZUKA</p>
+            <p>testingRYOTO ISHIZUKA</p>
             <p>(zuka)</p>
           </div>
           <div class="logo-desc">PORTFOLIO</div>
@@ -740,6 +740,8 @@
     var mySwiper = new Swiper('.swiper-container', {
       // ここからオプション
       loop: true,
+      spaceBetween: 10,
+      effect: 'slide',
       pagination: {
         el: '.swiper-pagination',
       },
@@ -748,11 +750,17 @@
         prevEl: '.swiper-button-prev',
       },
       breakpoints: {
-        767: {
+        // 980ピクセル幅以下になったら
+        980: {
           slidesPerView: 1,
-          spaceBetween: 0
+          spaceBetween: 20
+        },
+        // 640ピクセル幅以下になったら
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 30
         }
-      }
+      },
     })
   </script>
 </body>
