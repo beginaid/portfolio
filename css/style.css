@@ -163,6 +163,39 @@ ul li {
   letter-spacing: .2em;
 }
 
+#header .contact-list ul {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0 auto;
+}
+
+#header .contact-list li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#header .contact-list li a {
+  color: #333;
+}
+
+#header .contact-list li img {
+  width: 50px;
+}
+
+#header .contact-list-desc {
+  font-weight: bold;
+}
+
+#header .contact-other {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
 /*--------------------------------
  グローバルナビ
 ---------------------------------*/
