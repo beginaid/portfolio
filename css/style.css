@@ -35,6 +35,10 @@ li {
   list-style: none;
 }
 
+ul li {
+  padding-left: 20px
+}
+
 .text-bold {
   font-weight: bold;
 }
@@ -355,7 +359,7 @@ li {
 
 #skill .card {
   display: flex;
-  flex-basis: 46%;
+  flex-basis: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
