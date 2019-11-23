@@ -632,7 +632,7 @@ ul li {
   }
 
   #feature .section-image {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
   #about.section-image,
@@ -714,7 +714,7 @@ ul li {
 }
 
 .swiper-container {
-  max-width: 500px;
+  width: 500px;
   height: 300px;
   border: 2px solid black;
   position: relative;
