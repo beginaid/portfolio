@@ -332,13 +332,13 @@ ul li {
 ---------------------------------*/
 
 #gallery .card {
-  flex-basis: 18%;
+  flex-basis: 24%;
   margin-bottom: 60px;
 }
 
 #gallery .card-wrapper::after {
   display: block;
-  flex-basis: 18%;
+  flex-basis: 24%;
   content: "";
 }
 
