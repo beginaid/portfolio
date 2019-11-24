@@ -262,6 +262,7 @@ ul li {
   width: 100%;
 }
 
+
 /*--------------------------------
  Card
 ---------------------------------*/
@@ -533,6 +534,12 @@ ul li {
 
 #footer .copyright {
   font-size: 10px;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+#footer .language {
+  font-size: 16px;
   text-align: center;
   color: #8c8c8c;
 }
