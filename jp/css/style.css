@@ -347,6 +347,10 @@ ul li {
   margin-bottom: 0;
 }
 
+#gallery .cardplus {
+display: none;
+}
+
 /*--------------------------------
  FEATURE
 ---------------------------------*/
@@ -752,6 +756,16 @@ ul li {
 
 #gallery .card:nth-child(3n+1):nth-last-child(-n+3),
 #gallery .card:nth-child(3n+1):nth-last-child(-n+3)~div {
+  margin-bottom: 0;
+}
+
+#gallery .cardplus {
+  flex-basis: 31%;
+  margin-bottom: 60px;
+}
+
+#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3),
+#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
 }
 
