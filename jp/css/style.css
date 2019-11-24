@@ -739,21 +739,21 @@ ul li {
     padding: 20px 0;
   }
 
-  #gallery .card {
+#gallery .card {
   flex-basis: 31%;
   margin-bottom: 60px;
-  }
+}
 
-  #gallery .card-wrapper::after {
+#gallery .card-wrapper::after {
   display: block;
   flex-basis: 31%;
   content: "";
-  }
+}
 
-  #gallery .card:nth-child(3n+1):nth-last-child(-n+3),
-  #gallery .card:nth-child(3n+1):nth-last-child(-n+3)~div {
+#gallery .card:nth-child(3n+1):nth-last-child(-n+3),
+#gallery .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
-  }
+}
 
 }
 
