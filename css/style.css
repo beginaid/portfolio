@@ -313,6 +313,7 @@ ul li {
 #works .card {
   flex-basis: 31%;
   margin-bottom: 60px;
+  margin-left: 10px;
 }
 
 #works .card-wrapper::after {
@@ -323,6 +324,27 @@ ul li {
 
 #works .card:nth-child(3n+1):nth-last-child(-n+3),
 #works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
+  margin-bottom: 0;
+}
+
+/*--------------------------------
+ GALLERY
+---------------------------------*/
+
+#gallery .card {
+  flex-basis: 19%;
+  margin-bottom: 60px;
+  margin-left: 10px;
+}
+
+#gallery .card-wrapper::after {
+  display: block;
+  flex-basis: 23%;
+  content: "";
+}
+
+#gallery .card:nth-child(3n+1):nth-last-child(-n+3),
+#gallery .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
 }
 
