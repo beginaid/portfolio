@@ -332,14 +332,14 @@ ul li {
 ---------------------------------*/
 
 #gallery .card {
-  flex-basis: 19%;
+  flex-basis: 18%;
   margin-bottom: 60px;
   margin-left: 10px;
 }
 
 #gallery .card-wrapper::after {
   display: block;
-  flex-basis: 23%;
+  flex-basis: 18%;
   content: "";
 }
 
