@@ -760,7 +760,7 @@ display: none;
 }
 
 #gallery .cardplus {
-  display: block;
+  display: flex;
   flex-basis: 31%;
   margin-bottom: 60px;
 }
