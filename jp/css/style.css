@@ -307,50 +307,7 @@ ul li {
   opacity: 1;
 }
 
-/*--------------------------------
- Cardplus
----------------------------------*/
 
-.cardplus-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.cardplus-image img {
-  width: 100%;
-}
-
-.cardplus-caption {
-  text-align: center;
-}
-
-.cardplus-caption-title {
-  font-size: 12px;
-  font-weight: bold;
-  margin-top: 8px;
-}
-
-.cardplus-caption-info {
-  font-size: 10px;
-}
-
-.cardplus-caption-url {
-  font-size: 10px;
-}
-
-.cardplus img.fadein {
-  -webkit-transition: 1.5s;
-  -moz-transition: 1.5s;
-  -ms-transition: 1.5s;
-  -o-transition: 1.5s;
-  transition: 1.5s;
-  opacity: 0;
-}
-
-.cardplus img.fadein.lazyloaded {
-  opacity: 1;
-}
 
 /*--------------------------------
  WORKS
@@ -393,20 +350,10 @@ ul li {
 }
 
 #gallery .cardplus {
-  flex-basis: 18%;
+  flex-basis: 31%;
   margin-bottom: 60px;
 }
 
-#gallery .cardplus-wrapper::after {
-  display: block;
-  flex-basis: 18%;
-  content: "";
-}
-
-#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3),
-#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3)~div {
-  margin-bottom: 0;
-}
 
 /* #gallery .cardplus {
 display: none;
