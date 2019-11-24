@@ -332,13 +332,13 @@ ul li {
 ---------------------------------*/
 
 #gallery .card {
-  flex-basis: 24%;
+  flex-basis: 18%;
   margin-bottom: 60px;
 }
 
 #gallery .card-wrapper::after {
   display: block;
-  flex-basis: 24%;
+  flex-basis: 18%;
   content: "";
 }
 
@@ -738,6 +738,23 @@ ul li {
   #footer .inner {
     padding: 20px 0;
   }
+
+  #gallery .card {
+  flex-basis: 31%;
+  margin-bottom: 60px;
+  }
+
+  #gallery .card-wrapper::after {
+  display: block;
+  flex-basis: 31%;
+  content: "";
+  }
+
+  #gallery .card:nth-child(3n+1):nth-last-child(-n+3),
+  #gallery .card:nth-child(3n+1):nth-last-child(-n+3)~div {
+  margin-bottom: 0;
+  }
+
 }
 
 .swiper-container {
