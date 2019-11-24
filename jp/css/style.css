@@ -333,14 +333,14 @@ ul li {
 ---------------------------------*/
 
 #gallery .card {
-  flex-basis: 18%;
+  flex-basis: 20%;
   margin-bottom: 60px;
-  margin-left: 10px;
+  margin-left: 1px;
 }
 
 #gallery .card-wrapper::after {
   display: block;
-  flex-basis: 18%;
+  flex-basis: 20%;
   content: "";
 }
 
@@ -746,6 +746,4 @@ ul li {
   width: 500px;
   height: 300px;
   border: 2px solid black;
-  position: relative;
-  overflow:hidden;
 }
