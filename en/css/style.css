@@ -307,9 +307,6 @@ ul li {
   opacity: 1;
 }
 
-/*--------------------------------
- Cardplus
----------------------------------*/
 .cardplus-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -350,6 +347,8 @@ ul li {
 .cardplus img.fadein.lazyloaded {
   opacity: 1;
 }
+
+
 
 /*--------------------------------
  WORKS
@@ -392,8 +391,24 @@ ul li {
 }
 
 #gallery .cardplus {
-display: none;
+  flex-basis: 18%;
+  margin-bottom: 60px;
 }
+
+#gallery .cardplus-wrapper::after {
+  display: block;
+  flex-basis: 18%;
+  content: "";
+}
+
+#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3),
+#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3)~div {
+  margin-bottom: 0;
+}
+
+/* #gallery .cardplus {
+display: none;
+} */
 
 /*--------------------------------
  FEATURE
@@ -804,20 +819,7 @@ display: none;
 }
 
 #gallery .cardplus {
-  display: flex;
-  flex-basis: 31%;
-  margin-bottom: 60px;
-}
-
-#gallery .cardplus-wrapper::after {
-  display: block;
-  flex-basis: 31%;
-  content: "";
-}
-
-#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3),
-#gallery .cardplus:nth-child(3n+1):nth-last-child(-n+3)~div {
-  margin-bottom: 0;
+display: none;
 }
 
 }
