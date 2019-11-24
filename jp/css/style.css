@@ -332,13 +332,13 @@ ul li {
 ---------------------------------*/
 
 #gallery .card {
-  flex-basis: 31%;
+  flex-basis: 18%;
   margin-bottom: 60px;
 }
 
 #gallery .card-wrapper::after {
   display: block;
-  flex-basis: 31%;
+  flex-basis: 18%;
   content: "";
 }
 
@@ -542,10 +542,10 @@ ul li {
   color: #8c8c8c;
 }
 
-/*media Queries 767
+/*media Queries 480
 ----------------------------------------------------*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   body {
     font-size: 13px;
     line-height: 1.7;
