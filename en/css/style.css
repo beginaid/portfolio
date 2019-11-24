@@ -314,7 +314,6 @@ ul li {
 #works .card {
   flex-basis: 31%;
   margin-bottom: 60px;
-  margin-left: 10px;
 }
 
 #works .card-wrapper::after {
@@ -335,7 +334,6 @@ ul li {
 #gallery .card {
   flex-basis: 18%;
   margin-bottom: 60px;
-  margin-left: 10px;
 }
 
 #gallery .card-wrapper::after {
@@ -544,10 +542,10 @@ ul li {
   color: #8c8c8c;
 }
 
-/*media Queries 767
+/*media Queries 480
 ----------------------------------------------------*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   body {
     font-size: 13px;
     line-height: 1.7;
@@ -740,12 +738,27 @@ ul li {
   #footer .inner {
     padding: 20px 0;
   }
+
+#gallery .card {
+  flex-basis: 31%;
+  margin-bottom: 60px;
+}
+
+#gallery .card-wrapper::after {
+  display: block;
+  flex-basis: 31%;
+  content: "";
+}
+
+#gallery .card:nth-child(3n+1):nth-last-child(-n+3),
+#gallery .card:nth-child(3n+1):nth-last-child(-n+3)~div {
+  margin-bottom: 0;
+}
+
 }
 
 .swiper-container {
   width: 500px;
   height: 300px;
   border: 2px solid black;
-  position: relative;
-  overflow:hidden;
 }
