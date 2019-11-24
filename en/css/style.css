@@ -308,6 +308,50 @@ ul li {
 }
 
 /*--------------------------------
+ Cardplus
+---------------------------------*/
+.cardplus-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardplus-image img {
+  width: 100%;
+}
+
+.cardplus-caption {
+  text-align: center;
+}
+
+.cardplus-caption-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.cardplus-caption-info {
+  font-size: 10px;
+}
+
+.cardplus-caption-url {
+  font-size: 10px;
+}
+
+.cardplus img.fadein {
+  -webkit-transition: 1.5s;
+  -moz-transition: 1.5s;
+  -ms-transition: 1.5s;
+  -o-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.cardplus img.fadein.lazyloaded {
+  opacity: 1;
+}
+
+/*--------------------------------
  WORKS
 ---------------------------------*/
 
